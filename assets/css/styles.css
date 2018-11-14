@@ -1,0 +1,42 @@
+#features {
+  text-align:left;
+  background:url(../../assets/img/bg_laundryplasa.jpg);
+  background-size:cover;
+}
+
+#features .jumbotron {
+  max-width:860px;
+  margin:0 auto;
+  background-color:rgba(255,255,255,0);
+}
+
+@media (max-width: 768px) {
+  #features .jumbotron {
+    padding:5px;
+  }
+}
+
+.aboutus {
+  margin-top:40px;
+}
+
+.title_h2 {
+  text-align:center;
+  font-weight:600;
+}
+
+.aboutus p {
+  font-size:16px;
+  max-width:800px;
+  margin:0 auto;
+  text-align:justify;
+}
+
+#sec_produk {
+  padding:40px;
+}
+
+.aboutus p {
+  padding-bottom:10px;
+}
+

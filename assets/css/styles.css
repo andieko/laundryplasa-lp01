@@ -19,6 +19,7 @@
   text-align:center;
   font-weight:600;
   padding-bottom:20px;
+  font-size:48px;
 }
 
 .aboutus p {
@@ -32,12 +33,9 @@
   padding:40px;
 }
 
-.aboutus p {
+#aboutus p {
   padding-bottom:10px;
-}
-
-#maps {
-  padding-top:40px;
+  text-align:justify;
 }
 
 #aboutus {
@@ -56,10 +54,16 @@
   width:150px;
 }
 
-.hotline {
-  font-size:24px;
-  font-family:Catamaran, sans-serif;
-  font-weight:800;
+@media (min-width: 576px) {
+  .hotline {
+    font-size:40px;
+    font-family:Catamaran, sans-serif;
+    font-weight:800;
+  }
+}
+
+.jumbotron {
+  padding:40px;
 }
 
 @media (max-width: 576px) {
@@ -69,7 +73,24 @@
   }
 }
 
-.jumbotron {
-  padding:40px;
+@media (max-width: 480px) {
+  .jumbotron .smhead h1 {
+    font-size:16px;
+    background-color:white;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron p {
+    font-size:24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hotline {
+    font-size:24px;
+    font-weight:800;
+    font-family:Catamaran, sans-serif;
+  }
 }
 

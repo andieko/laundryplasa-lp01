@@ -11,10 +11,6 @@
   color:rgb(255,255,255);
 }
 
-.aboutus {
-  margin-top:40px;
-}
-
 .title_h2 {
   text-align:center;
   font-weight:600;
@@ -22,30 +18,29 @@
   font-size:48px;
 }
 
-.aboutus p {
+.sec_aboutus p {
   font-size:16px;
   max-width:800px;
   margin:0 auto;
   text-align:justify;
 }
 
-#sec_produk {
-  padding:40px;
+#produk {
+  padding:30px;
 }
 
-#aboutus p {
-  padding-bottom:10px;
+#sec_aboutus p {
   text-align:justify;
 }
 
-#aboutus {
+#sec_aboutus {
   background-color:rgba(0,163,255,0.18);
-  padding-top:40px;
-  padding-bottom:20px;
+  padding-top:10px;
+  padding-bottom:10px;
 }
 
 #layanan {
-  padding:40px;
+  padding:30px;
 }
 
 .img-fluid {
@@ -92,5 +87,21 @@
     font-weight:800;
     font-family:Catamaran, sans-serif;
   }
+}
+
+#sec_produk {
+  padding-bottom:20px;
+}
+
+#aboutus {
+  padding:30px;
+}
+
+#lokasi {
+  padding:30px;
+}
+
+#kontak {
+  /*padding:30px;*/
 }
 

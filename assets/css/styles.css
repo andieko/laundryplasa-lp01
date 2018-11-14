@@ -8,12 +8,7 @@
   max-width:860px;
   margin:0 auto;
   background-color:rgba(255,255,255,0);
-}
-
-@media (max-width: 768px) {
-  #features .jumbotron {
-    padding:5px;
-  }
+  color:rgb(255,255,255);
 }
 
 .aboutus {
@@ -23,6 +18,7 @@
 .title_h2 {
   text-align:center;
   font-weight:600;
+  padding-bottom:20px;
 }
 
 .aboutus p {
@@ -38,5 +34,42 @@
 
 .aboutus p {
   padding-bottom:10px;
+}
+
+#maps {
+  padding-top:40px;
+}
+
+#aboutus {
+  background-color:rgba(0,163,255,0.18);
+  padding-top:40px;
+  padding-bottom:20px;
+}
+
+#layanan {
+  padding:40px;
+}
+
+.img-fluid {
+  padding:0;
+  margin:0;
+  width:150px;
+}
+
+.hotline {
+  font-size:24px;
+  font-family:Catamaran, sans-serif;
+  font-weight:800;
+}
+
+@media (max-width: 576px) {
+  .jumbotron {
+    text-align:center;
+    padding:30px;
+  }
+}
+
+.jumbotron {
+  padding:40px;
 }
 

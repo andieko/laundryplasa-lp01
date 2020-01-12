@@ -104,6 +104,7 @@
 
 .hp a,a:link{
   color : white;
+  font-weight:600;
   /*padding:30px;*/
 }
 

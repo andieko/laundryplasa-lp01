@@ -102,7 +102,7 @@
   padding:30px;
 }
 
-#kontak a{
+.hp a,a:link{
   color : white;
   /*padding:30px;*/
 }
